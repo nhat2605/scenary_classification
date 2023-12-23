@@ -16,7 +16,8 @@ This was a learning attempt on image classification, neural network and utilisin
 ### Prerequisites
 - Python 3.x
 - TensorFlow
-
+- Ubuntu 22.04 on WSL 
+  
 ### Installation
 1. Clone the repository and Navigate to it:
 ```bash
@@ -24,7 +25,15 @@ https://github.com/nhat2605/scenary_classification.git
 cd scenary_classification
 ```
 
-2. Install the required packages: WIP
+2. Install the required packages:
+```bash
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install python3-pip -y
+pip3 install requests
+pip3 install Pillow
+python3 -m pip install tensorflow[and-cuda]
+```
 
 ### Navigation
 1. The scenery_classification.ipynb is a notebook file which demonstrates how the data was processed and used to train the model
