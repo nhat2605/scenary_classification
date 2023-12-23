@@ -36,7 +36,7 @@ cd scenary_classification
 2. You will be prompted to insert a URL to an image. Please make sure this URL is accessible.
 3. If the URL is valid, the model will return the possible result of what the image might be with a confidence percentage.
 
-### Acknowledgement
+## Acknowledgement
 1. The template of my training is from https://www.tensorflow.org/tutorials/images/classification
 
 2. I do not own the data that was used to train the model. All data was retrieved from Kaggle.
